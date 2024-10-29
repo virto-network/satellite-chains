@@ -10,11 +10,17 @@ If you’re tired of safe plays and ready to see KSM punch above its weight, wel
 
 ### 1. **The KIMCHI Play**
 
-The game here is simple: you’re betting that **KSM will close the gap with DOT**. If you think Kusama’s fast-and-loose attitude has what it takes to narrow in on Polkadot’s value, then KIMCHI is your token. There’s no final "win"—just a dynamic, ongoing race between the polished Polkadot and the edgy Kusama.
+The game here is simple: you’re betting that **KSM will close the gap with DOT**. 
+
+If you think Kusama’s fast-and-loose attitude has what it takes to narrow in on Polkadot’s value, then KIMCHI is your token. 
+
+There’s no final "win"—just a dynamic, ongoing race between the polished Polkadot and the edgy Kusama.
 
 ### 2. **Why KIMCHI Is Different**
 
-KIMCHI thrives on the Kusama ethos: freedom, speed, and a community-driven approach that doesn’t fear risk. Unlike DOT’s brand image, KIMCHI leans into the chaos and creativity that comes when you realise there are no rules.
+KIMCHI thrives on the Kusama ethos: freedom, speed, and a community-driven approach that doesn’t fear risk. 
+
+Unlike DOT’s brand image, KIMCHI leans into the chaos and creativity that comes when you realise there are no rules.
 
 ---
 
