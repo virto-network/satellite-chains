@@ -5,7 +5,6 @@ The following design combines algorithmic adjustments, oracle-based pricing, and
 #### **1. Overview and Objective**
    - The KIMCHI token's supply dynamically expands or contracts based on the real-time **KSM/DOT price ratio**, aiming to maintain its value in alignment with this ratio.
    - KIMCHI functions as both a speculative asset and a price-tracking token, balancing supply based on buy/sell demand to prevent significant divergence from the KSM/DOT ratio.
-   - 
 ---
 
 ### **2. Core Components**
