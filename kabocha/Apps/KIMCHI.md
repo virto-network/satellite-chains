@@ -1,6 +1,8 @@
 ### KIMCHI: A KSM:DOT prediction market
 
-KIMCHI isn’t just a token—it’s a statement. While Polkadot (DOT) is the polished, predictable, institution loving network, KIMCHI is about kickstarting Kusama’s wild, meme-driven nature. KIMCHI channels the spirit of **experimentation** and **high-stakes play** that makes Kusama the black sheep of the Polkadot ecosystem.
+KIMCHI isn’t just a token — it’s a bet. 
+
+While Polkadot (DOT) is the polished, predictable, institution loving network, KIMCHI is about kickstarting Kusama’s wild, meme-driven nature. KIMCHI channels the spirit of **experimentation** and **high-stakes play** that makes Kusama the black sheep of the Polkadot ecosystem.
 
 ---
 
