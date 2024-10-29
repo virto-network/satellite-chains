@@ -1,6 +1,6 @@
 ### KIMCHI: An incentivised KSM:DOT prediction market
 
-It’s not just a token. **It’s a bet**. 
+It’s not just a token. **It’s a wild bet that KSM will flip DOT**. 
 
 A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT), with usage incentivised through automated minting of KAB rewards.
 
