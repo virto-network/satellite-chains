@@ -23,12 +23,12 @@ Kabocha’s launch project is **KIMCHI** - a speculative token and user-facing p
    - **Primary Pallet**:
       - **Asset management**: Kabocha's network token KAB is minted on the Satellite chain via the `Assets Pallet`.
       - **Minting and Rewards**: $KAB is awarded via [`Pallet Mint with Fee`](https://github.com/kabocha-network/pallet_mint_with_fee) in return for projects delivering objective on-chain impact allowing for automated performance related incentives.
-      - **Oracle Pallet**: Maintains real-time DOT/KSM ratios and updates KIMCHI’s value, with both native and dUSD-converted values.
       - **Stablecoin Integration**: Launches with Asset Hub integration for dUSD issuance, can migrate to Kabocha Assets Pallet as/when necessary.
 
 #### **KIMCHI**
 It’s not just a token. It’s a bet. A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
    - **Design**:
+      - **Oracle Pallet**: Maintains real-time DOT/KSM ratios and updates KIMCHI’s value, with both native and dUSD-converted values.
       - **DEX**: Possibly uses`KSM FUN pallet` - combining `Assets Pallet` and `Asset Conversion Pallet` to enable launch of KIMCHI token and onboard selected pairs, bridged from Kusama to Polkadot to provide access to both $KSM and $DOT liquidity.
    - **Tokenomics**:
       - **DOT/KSM Ratio Pegging**: KIMCHI’s value relies on the DOT/KSM price ratio, allowing users to speculate on Kusama’s potential to catch up with Polkadot.
