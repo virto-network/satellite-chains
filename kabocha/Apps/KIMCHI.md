@@ -1,4 +1,4 @@
-### KIMCHI: A KSM:DOT prediction market
+### KIMCHI: An incentivised KSM:DOT prediction market
 
 It’s not just a token. **It’s a bet**. 
 
