@@ -12,7 +12,7 @@ Kabocha’s launch project is **KIMCHI** - a speculative token and user-facing p
 
 #### **1. Kabocha Parachain**
    - **Architecture**: Built as a Kusama satellite chain governed by Krievo with KAB as its native currency.
-   - **Distribution**: Forked from ]Edgeware](https://forum.polkadot.network/t/re-introducing-edgeware-substrates-most-chaotic-governance-experiment-and-second-oldest-mainnet/500) to enable broad, fair and aligned genesis. W3F have large stake representing their contributions but not controlling share.
+- **Distribution**: Forked from [Edgeware](https://forum.polkadot.network/t/re-introducing-edgeware-substrates-most-chaotic-governance-experiment-and-second-oldest-mainnet/500) to enable broad, fair and aligned genesis. W3F have large stake representing their contributions but not controlling share.
 - **USP**: Restructures base economic incentives through governance medited separation of powers to ensure long term network alignment with the aim of advancing, rather than collapsing collective intelligence. 
 
    - **Core Functions**:
