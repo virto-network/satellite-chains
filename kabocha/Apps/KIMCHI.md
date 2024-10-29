@@ -20,6 +20,8 @@ There’s no final "win"—just a dynamic, ongoing race between the polished Pol
 
 KIMCHI thrives on the Kusama ethos: freedom, speed, and a community-driven approach that doesn’t fear risk. 
 
+Similar to a prediction market, those who buy KIMCHI when they believe KSM will outperform DOT are rewarded as the ratio shifts in KSM’s favor. Conversely, if DOT outperforms, KIMCHI’s value decreases, penalizing those with incorrect predictions.
+
 Unlike DOT’s brand image, KIMCHI leans into the chaos and creativity that comes when you realise there are no rules.
 
 ---
