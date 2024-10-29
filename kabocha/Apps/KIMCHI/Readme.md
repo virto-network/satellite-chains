@@ -8,7 +8,7 @@ A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on P
 
 If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. 
 
-Read the draft technical spec here. 
+Read the draft technical spec [here](https://github.com/monsieurbulb/satellite-chains/blob/main/kabocha/Apps/KIMCHI/Draft%20technical%20spec.md). 
 
 #expectchaos
 
