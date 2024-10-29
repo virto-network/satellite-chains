@@ -59,10 +59,6 @@ To make the concept clearer, here are some hypothetical price movements and how 
 
 ---
 
-### 5. **Example Token Scenarios**
-
----
-
 ### 6. **KAB incentive**
 
 When users trade KIMCHI, they receive a small percentage in automatically minted KAB. This “cashback” reward incentivises frequent trading, promoting liquidity and volume in the ecosystem.
