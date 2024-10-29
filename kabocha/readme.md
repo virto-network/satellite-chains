@@ -1,7 +1,3 @@
-Kabocha basic tech spec for launching KIMCHI Token/App**:
-
----
-
 ### **Project Overview**
 
 **Kabocha** is a satellite parachain on Kusama, governed by $KAB token holders from the **Krievo parachain**, which is built on the [Virto node](https://github.com/virto-network/virto-node/). 
