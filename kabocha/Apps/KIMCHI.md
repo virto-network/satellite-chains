@@ -1,6 +1,10 @@
 ### KIMCHI: A KSM:DOT prediction market
 
-It’s not just a token. It’s a bet. A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
+It’s not just a token. **It’s a bet**. 
+
+A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). 
+
+If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
 
 ---
 
