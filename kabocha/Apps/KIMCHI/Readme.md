@@ -1,10 +1,16 @@
-### KIMCHI: An incentivised KSM:DOT prediction market
+### KIMCHI: An incentivised, algorithmic KSM:DOT prediction market
 
-It’s not just a token. **It’s a wild bet that KSM will flip DOT**. 
+It’s not just a token. 
+
+**It’s a wild bet that KSM will flip DOT**. 
 
 A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT), with usage incentivised through automated minting of KAB rewards.
 
-If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
+If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. 
+
+Read the draft technical spec here. 
+
+#expectchaos
 
 ---
 
@@ -14,54 +20,83 @@ The game here is simple: you’re betting that **KSM will close the gap with DOT
 
 If you think Kusama’s fast-and-loose attitude has what it takes to narrow in on Polkadot’s value, then KIMCHI is your token. 
 
-There’s no final "win"—just a dynamic, ongoing race between the polished Polkadot and the edgy Kusama.
+There’s no final "win"—just a dynamic, ongoing battle between Polkadot and Kusama - with the benefit of competition keeping the entire ecosystem on its toes.
 
 ### 2. **Why KIMCHI Is Different**
 
-KIMCHI thrives on the Kusama ethos: freedom, speed, and a community-driven approach that doesn’t fear risk. 
+KIMCHI is born from Kusama's experimentalist ethos: freedom, speed, and a community-driven approach that doesn’t fear risk. 
 
-Similar to a prediction market, those who buy KIMCHI when they believe KSM will outperform DOT are rewarded as the ratio shifts in KSM’s favor. Conversely, if DOT outperforms, KIMCHI’s value decreases, penalizing those with incorrect predictions.
+Similar to a prediction market, those who buy KIMCHI when they believe KSM will outperform DOT are rewarded as the ratio shifts in KSM’s favor. 
 
-Unlike DOT’s brand image, KIMCHI leans into the chaos and creativity that comes when you realise there are no rules.
+Conversely, if DOT outperforms, KIMCHI’s value decreases, penalizing those with incorrect predictions.
+
+Unlike DOT’s brand image, KIMCHI leans into the chaos and creativity that comes when you realise there really are are no rules.
 
 ---
 
 ### 3. **KIMCHI Tokenomics**.
 
-**KIMCHI tracks the relative performance of KSM against DOT.** Instead of reflecting KSM or DOT’s individual prices, DOTSAMA is pegged to the ratio of DOT/KSM. This approach allows holders to potentially profit if KSM gains on DOT, regardless of whether DOT and KSM are rising or falling in the overall market.
+**KIMCHI tracks the relative performance of KSM against DOT.** 
+
+Instead of reflecting KSM or DOT’s individual prices, KIMCHI is pegged to the ratio of DOT/KSM with algorithmic burn and mint functions keeping the price parity to the ratio.
+
+This approach allows holders to potentially profit if KSM gains on DOT, regardless of whether DOT and KSM are rising or falling in the overall market.
 
 ##### How it Works
+
 - **Price Calculation**: The value of KIMCHI is based on the DOT/KSM ratio:
+  
   - **When KSM gains against DOT** (the ratio decreases), KIMCHI’s value increases.
   - **When DOT gains against KSM** (the ratio increases), KIMCHI’s value decreases.
+ 
 - **Supply Mechanism**: KIMCHI tokens are minted or burned in response to changes in the DOT/KSM ratio, ensuring that the token's price closely reflects the current ratio.
 
 ---
 
-### 4. **Example Token Scenarios**
+### 4. **Example Scenarios**
 
-To make the concept clearer, here are some hypothetical price movements and how they would affect KIMCHI’s value:
+Here are three economic scenarios that illustrate KIMCHI's tokenomics, including KAB incentives using hypothetical values based on current prices:
 
-1. **Scenario 1: KSM Gains Against DOT**
-   - **Initial Prices**: KSM = $20, DOT = $4 (KSM/DOT = 5)
-   - **New Prices**: KSM = $15, DOT = $2 (KSM/DOT = 7.5 )
-   - **Result**: KIMCHI’s price increases, as KSM has gained on DOT, even though both have decreased in absolute value.
+---
 
-2. **Scenario 2: DOT Gains Against KSM**
-   - **Initial Prices**: KSM = $25, DOT = $4 (KSM/DOT = 6.25)
-   - **New Prices**: DOT = $6, KSM = $25 (KSM/DOT = 4.16)
-   - **Result**: KIMCHI’s price decreases, as DOT has gained against KSM, regardless of KSM’s stable price.
+### **Scenario 1: Moderate KSM Appreciation**
+   - **Starting Prices**: DOT at $4.00, KSM at $25.00.
+   - **Event**: KSM sees a 10% gain over DOT due to a strong Kusama network update, pushing KSM’s price to $27.50.
+   - **Impact**:
+     - **KIMCHI Value Increase**: Since KIMCHI’s value is pegged to the DOT/KSM ratio, KIMCHI appreciates as KSM gains ground.
+     - **Minted KAB Rewards**: Active traders receive an increased rate of KAB rewards to capitalize on momentum, incentivizing further trading and liquidity.
 
-3. **Scenario 3: Both KSM and DOT Fall, but KSM Falls Less**
-   - **Initial Prices**: DOT = $5, KSM = $40 (DOT/KSM = 8 )
-   - **New Prices**: DOT = $3, KSM = $30 (KSM/DOT = 10)
-   - **Result**: KIMCHI’s price increases, as KSM has narrowed the gap against DOT even though both values have decreased.
+**Outcome**: Moderate, steady growth with increased engagement due to reward incentives and long-term holding appeal for KIMCHI and KAB.
+
+---
+
+### **Scenario 2: Sharp Market Volatility (DOT Gains on KSM)**
+   - **Starting Prices**: DOT at $4.00, KSM at $25.00.
+   - **Event**: DOT gains 20%, rising to $4.80, while KSM drops 10% to $22.50.
+   - **Impact**:
+     - **KIMCHI Value Decline**: KIMCHI’s value drops due to the increasing DOT/KSM ratio, presenting a buying opportunity for believers in Kusama’s recovery.
+     - **Liquidity and KAB Staking Boosts**: KAB rewards for staking and liquidity provisioning are increased to stabilise KIMCHI’s price by encouraging capital inflow and long-term holding.
+
+**Outcome**: Kabocha stimulates ecosystem stability during volatility, rewarding users who commit liquidity or stake through the downturn.
+
+---
+
+### **Scenario 3: Major Bullish Market for KSM**
+   - **Starting Prices**: DOT at $4.00, KSM at $25.00.
+   - **Event**: KSM surges 50%, reaching $37.50 due to network-wide growth, while DOT remains stable.
+   - **Impact**:
+     - **KIMCHI Price Surge**: KIMCHI’s value surges with KSM, offering high yields to long-term holders.
+     - **Referral and Affiliate Bonuses in KAB**: Automated KAB minting incentivises users to invite new participants, amplifying KIMCHI’s liquidity and trading volume.
+
+**Outcome**: High user engagement through KAB incentives, with KIMCHI benefiting from rapid value appreciation and increased market interest. 
 
 ---
 
 ### 6. **KAB incentive**
 
-When users trade KIMCHI, they receive a small percentage in automatically minted KAB. This “cashback” reward incentivises frequent trading, promoting liquidity and volume in the ecosystem.
+When users trade KIMCHI, they receive a small percentage in automatically minted KAB. 
+
+This “cashback” reward incentivises frequent trading, promoting liquidity and volume in the ecosystem.
 
 Kabocha is currently fully diluted and distributed but not available for trading on any exchanges. 
 
@@ -105,6 +140,6 @@ KIMCHI can enable a blend of traditional relative value, sentiment-driven, and t
    - **High-Frequency Trading (HFT)**: Given KIMCHI’s reliance on relative performance, HFT algorithms could capitalize on small price swings by monitoring and trading on minute-by-minute price differentials between DOT and KSM.
 
 #### **Leveraged Bets and Options (future)**
-   - **Leveraged DOTSAMA**: Some traders might look for leverage if they have a high conviction that KSM will gain on DOT quickly. A leveraged KIMCHI instrument would allow for amplified returns (and risks), especially attractive to traders with strong beliefs in a particular trend.
+   - **Leveraged KIMCHI**: Some traders might look for leverage if they have a high conviction that KSM will gain on DOT quickly. A leveraged KIMCHI instrument would allow for amplified returns (and risks), especially attractive to traders with strong beliefs in a particular trend.
    - **Options for Hedging and Speculation**: If options on KIMCHI become available, traders could use calls or puts to hedge positions or make directional bets on volatility in the DOT/KSM relationship.
 
