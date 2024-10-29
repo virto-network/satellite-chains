@@ -1,6 +1,6 @@
 ### **Project Overview**
 
-**Kabocha** is a satellite parachain on Kusama, governed by $KAB token holders from the **Krievo parachain**, which is built on the [Virto node](https://github.com/virto-network/virto-node/). 
+**Kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama, governed by $KAB token holders from the **Krievo parachain**, which is built on the [Virto node](https://github.com/virto-network/virto-node/). 
 
 The network utilises the [Brale](https://brale.xyz) and Asset Hub issued dUSD stablecoin as a default payment mechanism. 
 
