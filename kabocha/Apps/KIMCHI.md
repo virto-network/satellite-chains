@@ -43,18 +43,18 @@ Unlike DOT’s brand image, KIMCHI leans into the chaos and creativity that come
 To make the concept clearer, here are some hypothetical price movements and how they would affect KIMCHI’s value:
 
 1. **Scenario 1: KSM Gains Against DOT**
-   - **Initial Prices**: DOT = $40, KSM = $4 (DOT/KSM = 10)
-   - **New Prices**: DOT = $30, KSM = $6 (DOT/KSM = 5)
+   - **Initial Prices**: KSM = $20, DOT = $4 (KSM/DOT = 5)
+   - **New Prices**: KSM = $15, DOT = $2 (KSM/DOT = 7.5 )
    - **Result**: KIMCHI’s price increases, as KSM has gained on DOT, even though both have decreased in absolute value.
 
 2. **Scenario 2: DOT Gains Against KSM**
-   - **Initial Prices**: DOT = $20, KSM = $2 (DOT/KSM = 10)
-   - **New Prices**: DOT = $30, KSM = $2 (DOT/KSM = 15)
+   - **Initial Prices**: KSM = $25, DOT = $4 (KSM/DOT = 6.25)
+   - **New Prices**: DOT = $6, KSM = $25 (KSM/DOT = 4.16)
    - **Result**: KIMCHI’s price decreases, as DOT has gained against KSM, regardless of KSM’s stable price.
 
 3. **Scenario 3: Both KSM and DOT Fall, but KSM Falls Less**
-   - **Initial Prices**: DOT = $40, KSM = $5 (DOT/KSM = 8)
-   - **New Prices**: DOT = $20, KSM = $3 (DOT/KSM = 6.67)
+   - **Initial Prices**: DOT = $5, KSM = $40 (DOT/KSM = 8 )
+   - **New Prices**: DOT = $3, KSM = $30 (KSM/DOT = 10)
    - **Result**: KIMCHI’s price increases, as KSM has narrowed the gap against DOT even though both values have decreased.
 
 ---
