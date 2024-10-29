@@ -59,16 +59,30 @@ To make the concept clearer, here are some hypothetical price movements and how 
 
 ---
 
-### 5. **How KIMCHI Works as a Prediction Market**
+### 5. **Example Token Scenarios**
+
+---
+
+### 6. **KAB incentive**
+
+When users trade KIMCHI, they receive a small percentage in automatically minted KAB. This “cashback” reward incentivises frequent trading, promoting liquidity and volume in the ecosystem.
+
+Kabocha is currently fully diluted and distributed but not available for trading on any exchanges. 
+
+THe only way to receive KAB is through governance approval and/or automated minting functions for objective on-chain impact. 
+
+### 6. **How KIMCHI Works as a Prediction Market**
 
 KIMCHI lets you bet on KSM vs. DOT without waiting for a "final score." It’s like an endless horse race where Kusama is always the scrappy underdog. Think of it as a pulse check on market sentiment for KSM’s potential to disrupt DOT’s dominance.
 
-### 6. **The KIMCHI Affiliate Program: Decentralized Growth**
+### 7. **The KIMCHI Affiliate Program: Decentralized Growth**
 
-Inspired by [Bifrost’s Rewards-Share programme](https://docs.bifrost.io/for-partners/reward-share-program-rsp0, KIMCHI rewards anyone who brings new users into the fold. Share your unique link, earn rewards from every trade, and help spread the KIMCHI vibe across the crypto ecosystem. Whether you’re creating memes, guides, or simply getting your friends on board, KIMCHI’s affiliate program makes you part of the story.
+Inspired by [Bifrost’s Rewards-Share programme](https://docs.bifrost.io/for-partners/reward-share-program-rsp0), KIMCHI rewards anyone who brings new users into the fold. 
+
+Share your unique link, earn rewards from every trade, and help spread the KIMCHI vibe across the ecosystem. 
 
 **Bootstrappping dUSD**:
-   - **Transaction and Referral Fees**: Each trade, mint, or burn is a new opportunity to capture a slice of the market’s spice which are automatically converted to dUSD and pooled into the Kabocha organisation's reserve account and managed via Virto. 
+   - **Transaction and Referral Fees**: Each trade, mint, or burn is a new opportunity to capture a slice of the market’s spice. These fees are automatically converted to dUSD and pooled into the Kabocha organisation's reserve account and managed via Virto. 
 
 **For the Community**:
    - **Hold and Earn**: Holding KIMCHI means betting on Kusama’s upside—earn rewards for sticking around.
