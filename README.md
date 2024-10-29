@@ -6,7 +6,7 @@ Launching a parachain has been historically time consuming, expensive and isolat
 
 ### Solution
 
-Satellite chains address these issues by enabling any individual or team to pay for dedicated technical talent, organisational super-powers and network infrastructure to abstract complexity, build network effects and scale into demand.
+Satellite chains address these issues by enabling any individual or team to pay for dedicated talent within an emerging network of specialised on-chain entities, build their specific systems, processes and governance on top of low cost organisational infrastructure and scale into demand through the deployment of turn key parachains.
 
 ### How they work
 
