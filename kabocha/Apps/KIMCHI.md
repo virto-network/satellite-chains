@@ -36,8 +36,8 @@ KIMCHI’s pricing and supply work to balance risk with reward, amplifying Kusam
    - **Minting**: When people buy into KIMCHI, tokens are minted at the current DOT/KSM ratio.
    - **Burning**: Selling KIMCHI burns tokens, keeping the supply responsive to the community’s conviction in Kusama.
 
-#### **3.3 Rewards and Staking Options**
-   - **Yield and Staking**: Transacting and holding KIMCHI receives automated KAB rewards.
+#### **3.3 Rewards**
+   - **KAB minting**: Transacting and holding KIMCHI receives automated KAB rewards.
 
 ---
 
