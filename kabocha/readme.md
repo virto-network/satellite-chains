@@ -4,7 +4,7 @@
 
 The network utilises the [Brale](https://brale.xyz) and Asset Hub issued dUSD stablecoin as a default payment mechanism. 
 
-Kabocha’s launch project is **KIMCHI** - a speculative token and user-facing prediction market/app, offering dynamic exposure to the Kusama (KSM) and Polkadot (DOT) price ratio alongside KAB rewards.
+Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction market/app based around to Kusama (KSM) and Polkadot (DOT) token prices. The market is settled in dUSD and incorporates KAB rewards.
 
 ---
 
@@ -26,16 +26,17 @@ Kabocha’s launch project is **KIMCHI** - a speculative token and user-facing p
       - **Stablecoin Integration**: Launches with Asset Hub integration for dUSD issuance, can migrate to Kabocha Assets Pallet as/when necessary.
 
 #### **KIMCHI**
-It’s not just a token. It’s a bet. A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
+It’s a bet. A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
    - **Design**:
       - **Oracle Pallet**: Maintains real-time DOT/KSM ratios and updates KIMCHI’s value, with both native and dUSD-converted values.
       - **DEX**: Possibly uses`KSM FUN pallet` - combining `Assets Pallet` and `Asset Conversion Pallet` to enable launch of KIMCHI token and onboard selected pairs, bridged from Kusama to Polkadot to provide access to both $KSM and $DOT liquidity.
-   - **Tokenomics**:
-      - **DOT/KSM Ratio Pegging**: KIMCHI’s value relies on the DOT/KSM price ratio, allowing users to speculate on Kusama’s potential to catch up with Polkadot.
-      - **Minting/Burning Logic**: The supply adjusts as users buy or sell. 
-      - **KAB Rewards**: All transactions receive KAB via automated minting.
+   - **Smart contract**:
+      - **createBet(amount: dUSD, direction: string, duration: uint256)**: Initiates a bet on KSM vs. DOT price movement.
+      - **checkOutcome(betId: uint256)**: Verifies the bet's outcome based on current prices.
+    - **distributePayout(betId: uint256)**: Automatically transfers winnings to the user's wallet.
 
-   - **User-Facing Application**:
-      - **Wallet and dUSD Integration**: Supports a dUSD wallet, facilitating transactions and staking within Kabocha.
-      - **Real-Time Dashboard**: Displays KIMCHI’s value in native terms and dUSD, tracks affiliate performance, and provides staking insights.
+   - **Price Oracle Integration**:
+      - Use reliable oracles for real-time KSM and DOT price feeds.
 
+   - **User Interface**:
+      - Dashboard for tracking bets, market prices, and payouts.
