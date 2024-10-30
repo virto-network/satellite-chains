@@ -1,6 +1,6 @@
-### KIMCHI: An incentivised, algorithmic KSM:DOT prediction market
+### KIMCHI: An incentivised KSM:DOT prediction market
 
-It’s not just a bet.
+KIMCHI isn't just a bet.
 
 **It’s a wild call that KSM will flip DOT.**
 
