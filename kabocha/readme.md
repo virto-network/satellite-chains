@@ -1,6 +1,6 @@
 ### **Project Overview**
 
-**kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama.
+**Kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama.
 
 It is governed by KAB token holders who leverage the **krievo parachain** for its organisational infrastructure. 
 
@@ -8,7 +8,7 @@ Krievo uses KSM as its primary currency and charges fees for enabling on-chain o
 
 Krievo is built on the [Virto node](https://github.com/virto-network/virto-node/) and enables organisations to operate via the [Virto App](https://app.virto.dev/). 
 
-The network utilises the [Brale](https://brale.xyz) and [Kusama Asset Hub](https://guide.kusama.network/docs/learn-assets) issued dUSD stablecoin as a default payment mechanism. 
+Kabocha utilises the [Brale](https://brale.xyz) and [Kusama Asset Hub](https://guide.kusama.network/docs/learn-assets) issued dUSD stablecoin as a default payment mechanism. 
 
 Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction market/app based around to Kusama (KSM) and Polkadot (DOT) token prices. The market is settled in dUSD and incorporates KAB rewards.
 
