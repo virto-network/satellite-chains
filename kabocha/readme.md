@@ -10,7 +10,7 @@ Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction mark
 
 ### **Technical Specification**
 
-#### Kabocha Parachain**
+#### Kabocha Parachain
    - **Architecture**: Built as a Kusama satellite chain governed by Krievo with KAB as its native currency.
 - **Distribution**: Forked from [Edgeware](https://forum.polkadot.network/t/re-introducing-edgeware-substrates-most-chaotic-governance-experiment-and-second-oldest-mainnet/500) to enable broad, fair and aligned genesis. [W3F](https://web3.foundation/) have large stake representing their contributions but not controlling share.
 - **USP**: Restructures base economic incentives through governance mediated separation of powers to ensure long term network alignment with the aim of advancing, rather than collapsing collective intelligence. 
@@ -25,7 +25,7 @@ Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction mark
       - **Minting and Rewards**: $KAB is awarded via [`Pallet Mint with Fee`](https://github.com/kabocha-network/pallet_mint_with_fee) in return for projects delivering objective on-chain impact allowing for automated performance related incentives.
       - **Stablecoin Integration**: Launches with Asset Hub integration for dUSD issuance, can migrate to Kabocha Assets Pallet as/when necessary.
 
-#### **Launch app - KIMCHI**
+#### Launch app - KIMCHI
 It’s a bet. A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
    - **Design**:
       - **Oracle Pallet**: Maintains real-time DOT/KSM ratios and updates KIMCHI’s value, with both native and dUSD-converted values.
