@@ -1,4 +1,4 @@
-### KIMCHI Protocol: Technical Specification
+### KIMCHI Protocol: Technical Specification (DRAFT)
 
 #### Overview
 KIMCHI is an incentivised prediction market enabling users to bet on the relative performance of Kusama (KSM) against Polkadot (DOT), with payouts settled in dUSD. Users also receive 2% cashback in KAB on each trade, enhancing the incentive to participate. The protocol utilises smart contracts through the Krievo frontier pallet for seamless bet management and settlement.
