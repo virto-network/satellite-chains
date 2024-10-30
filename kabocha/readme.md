@@ -29,7 +29,7 @@ Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction mark
 It’s a bet. A simple, clean, high-stakes call on whether Kusama (KSM) can close the gap on Polkadot (DOT). If you’re tired of safe plays and ready to see KSM punch above its weight, welcome to KIMCHI. LFG.
    - **Design**:
       - **Oracle Pallet**: Maintains real-time DOT/KSM ratios and updates KIMCHI’s value, with both native and dUSD-converted values.
-      - **DEX**: Possibly uses`KSM FUN pallet` - combining `Assets Pallet` and `Asset Conversion Pallet` to enable launch of KIMCHI token and onboard selected pairs, bridged from Kusama to Polkadot to provide access to both $KSM and $DOT liquidity.
+        
    - **Smart contract**:
       - **createBet(amount: dUSD, direction: string, duration: uint256)**: Initiates a bet on KSM vs. DOT price movement.
       - **checkOutcome(betId: uint256)**: Verifies the bet's outcome based on current prices.
