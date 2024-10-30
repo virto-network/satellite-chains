@@ -2,7 +2,9 @@
 
 **kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama.
 
-It is governed by KAB token holders who leverage the **krievo parachain** for its organisational infrastructure. Krievo uses KSM as its primary currency. 
+It is governed by KAB token holders who leverage the **krievo parachain** for its organisational infrastructure. 
+
+Krievo uses KSM as its primary currency and charges fees for enabling on-chain organisations to create member based organisations. Read more [here](https://hackmd.io/jTfEz0aaS72qBscVOLAGJg).  
 
 Krievo is built on the [Virto node](https://github.com/virto-network/virto-node/) and enables organisations to operate via the [Virto App](https://app.virto.dev/). 
 
