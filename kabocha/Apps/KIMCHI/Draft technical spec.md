@@ -1,57 +1,86 @@
-### **Technical Specification: KIMCHI Mint, Burn, and Redemption System (DRAFT)** 
+### KIMCHI Protocol: Technical Specification
 
-The following design combines algorithmic adjustments, oracle-based pricing, and community-driven governance with the aim of stabilising KIMCHI around the KSM/DOT ratio, supporting a dynamic and resilient token model inspired by algorithmic stablecoins.
-
-#### **1. Overview and Objective**
-   - The KIMCHI token's supply dynamically expands or contracts based on the real-time **KSM/DOT price ratio**, aiming to maintain its value in alignment with this ratio.
-   - KIMCHI functions as both a speculative asset and a price-tracking token, balancing supply based on buy/sell demand to prevent significant divergence from the KSM/DOT ratio.
----
-
-### **2. Core Components**
-
-#### **Oracle-Powered Pricing Mechanism**
-   - **Price Oracle Integration**: Use a secure oracle/s (e.g., Chainlink) to fetch the latest DOT/KSM price ratio at regular intervals.
-   - **Target Price Calculation**: Set KIMCHI’s target price as **1:1 with the DOT/KSM ratio**. This price updates with each oracle update, setting the standard against which minting and burning adjustments are made.
-
-#### **3. Minting and Supply Expansion**
-   - **Mint Functionality**: When users purchase KIMCHI, new tokens are minted at the target price defined by the DOT/KSM ratio.
-      - **Condition**: KIMCHI’s market price must exceed the target price, indicating demand exceeds supply.
-   - **Dynamic Minting Rate**: The minting rate can increase based on buy volume. A simple formula:
-     \[
-     \text{Mint Rate} = \text{Base Rate} \times \left(1 + \frac{\text{Current Price} - \text{Target Price}}{\text{Target Price}}\right)
-     \]
-      - **Purpose**: Prevents significant price divergence by rapidly expanding supply when demand is high.
-
-#### **4. Burning and Supply Contraction**
-   - **Burn Functionality**: Tokens are burned when users sell KIMCHI, reducing supply to support the price.
-      - **Condition**: KIMCHI’s market price falls below the target price, indicating supply exceeds demand.
-   - **Dynamic Burn Rate**: Adjust burn rate according to sell volume. A potential formula:
-     \[
-     \text{Burn Rate} = \text{Base Rate} \times \left(1 + \frac{\text{Target Price} - \text{Current Price}}{\text{Target Price}}\right)
-     \]
-      - **Purpose**: Stabilizes KIMCHI’s value by decreasing supply when demand wanes.
-
-#### **5. Redemption Mechanism**
-   - **Redemption Pool**: Create a dedicated pool where users can redeem KIMCHI for underlying assets (e.g., dUSD or DOT/KSM pairs).
-   - **Redemption Rate**: Offer redemptions at a discounted or premium rate, based on the KIMCHI price divergence:
-      - **Above Target**: Redemption at a slight premium incentivises selling to stabilise price.
-      - **Below Target**: Redemption at a discount encourages buybacks, stabilising price via demand.
-   - **Reserve Assets**: dUSD and/or KSM/DOT pairs in the redemption pool back redemptions, ensuring stability and supporting liquidity.
-
-#### **6. Algorithmic Adjustments Inspired by Stablecoins**
-   - **Expansion Incentives**: To manage excess demand, offer small minting bonuses when KIMCHI trades above the target.
-   - **Contraction Penalties**: When KIMCHI trades below target, add a small redemption penalty to incentivise holding and discourage excessive selling.
+#### Overview
+KIMCHI is an incentivised prediction market enabling users to bet on the relative performance of Kusama (KSM) against Polkadot (DOT), with payouts settled in dUSD. Users also receive 2% cashback in KAB on each trade, enhancing the incentive to participate. The protocol utilises smart contracts through the Krievo frontier pallet for seamless bet management and settlement.
 
 ---
 
-### **7. Security and Stability Mechanisms**
+### 1. **Smart Contract Functions**
+The KIMCHI protocol will incorporate the following core functions:
 
-- **Circuit Breakers**: Implement safety controls that halt minting/burning if KIMCHI’s price diverges more than 20% from the target, allowing for market correction and avoiding excess volatility.
-- **Oracle Fail-Safes**: Set backup price feeds and fallback protocols if the primary oracle fails, freezing minting/burning if no reliable price data is available.
+- **createBet(amount: dUSD, duration: uint256, direction: string)**:
+  - Initiates a new bet on KSM vs. DOT.
+  - **Parameters**:
+    - `amount`: Wager amount in dUSD.
+    - `duration`: Time period for the bet.
+    - `direction`: Indicates if the user bets on KSM outperforming DOT.
+  - **Cashback**: Users receive 2% of the bet amount as KAB.
+
+- **checkOutcome(betId: uint256)**:
+  - Validates the outcome of the bet using real-time price data from oracles.
+
+- **settleBet(betId: uint256)**:
+  - Automatically distributes winnings or losses in dUSD at the end of the betting period, including the cashback reward.
+
+- **mintWithFee(amount: uint256, fee: uint256)**:
+  - Utilises the `pallet_mint_with_fee` to mint KAB as cashback for users.
 
 ---
 
-### **8. Governance Controls**
+### 2. **Price Oracles**
+The protocol will integrate reliable price oracles to provide real-time price feeds for KSM and DOT, essential for determining bet outcomes.
 
-- **Community Voting**: Enable KIMCHI holders to vote on adjustments to minting/burning rates, redemption parameters, or oracle updates, aligning the system’s behavior with the community’s preferences.
-- **Automated Updates**: Establish governance-initiated updates, with parameters reset periodically based on current market trends or community input.
+---
+
+### 3. **Example Solidity-like Code Reference**
+Here's a simplified code snippet representing the KIMCHI smart contract functions, including the minting functionality:
+
+```solidity
+pragma solidity ^0.8.0;
+
+import "./pallet_mint_with_fee.sol";
+
+contract KIMCHI {
+    struct Bet {
+        address bettor;
+        uint256 amount;
+        uint256 duration;
+        string direction;
+        uint256 creationTime;
+        bool settled;
+    }
+
+    mapping(uint256 => Bet) public bets;
+    uint256 public betCount;
+
+    function createBet(uint256 _amount, uint256 _duration, string memory _direction) public {
+        require(_amount > 0, "Amount must be greater than 0");
+        betCount++;
+        uint256 cashback = (_amount * 2) / 100; // 2% cashback
+        bets[betCount] = Bet(msg.sender, _amount, _duration, _direction, block.timestamp, false);
+        
+        // Mint cashback in KAB using the mintWithFee function
+        mintWithFee(cashback, 0); // Fee can be adjusted as needed
+    }
+
+    function checkOutcome(uint256 betId) public view returns (string memory) {
+        // Logic to retrieve price from oracle and determine outcome
+    }
+
+    function settleBet(uint256 betId) public {
+        // Logic to settle the bet and transfer dUSD based on outcome
+        // Include cashback logic in the settlement process
+    }
+
+    function mintWithFee(uint256 amount, uint256 fee) internal {
+        // Call the mint function from the pallet_mint_with_fee
+    }
+}
+```
+
+---
+
+### 4. **User Experience Flow**
+1. **Bet Creation**: Users place bets on KSM vs. DOT using the `createBet` function, receiving 2% cashback in KAB.
+2. **Monitoring**: Users can track their bets and market prices via a dashboard.
+3. **Settlement**: At the end of the betting duration, users' bets are settled automatically in dUSD, and cashback in KAB is distributed accordingly.
