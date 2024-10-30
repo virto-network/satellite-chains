@@ -1,6 +1,8 @@
 ### **Project Overview**
 
-**Kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama, governed by $KAB token holders from the **Krievo parachain**, which is built on the [Virto node](https://github.com/virto-network/virto-node/) and uses KSM as its primary currency.
+**kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama, governed by $KAB token holders using **krievo parachain** infrastructure that uses KSM as its primary currency. 
+
+Krievo is built on the [Virto node](https://github.com/virto-network/virto-node/) and enables organisations to operate via the [Virto App](https://app.virto.dev/). 
 
 The network utilises the [Brale](https://brale.xyz) and Asset Hub issued dUSD stablecoin as a default payment mechanism. 
 
@@ -10,8 +12,8 @@ Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction mark
 
 ### **Technical Specification**
 
-#### Kabocha Parachain
-   - **Architecture**: Built as a Kusama satellite chain governed by Krievo with KAB as its native currency.
+#### kabocha Parachain
+   - **Architecture**: Built as a Kusama satellite chain governed using krievo infrastructure and accessed via the [Virto application](https://app.virto.dev/) with KAB as its native currency.
 - **Distribution**: Forked from [Edgeware](https://forum.polkadot.network/t/re-introducing-edgeware-substrates-most-chaotic-governance-experiment-and-second-oldest-mainnet/500) to enable broad, fair and aligned genesis. [W3F](https://web3.foundation/) have large stake representing their contributions but not controlling share.
 - **USP**: Restructures base economic incentives through governance mediated separation of powers to ensure long term network alignment with the aim of advancing, rather than collapsing collective intelligence. 
 
