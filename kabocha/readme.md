@@ -6,7 +6,7 @@ It is governed by KAB token holders who leverage the **krievo parachain** for it
 
 Krievo is built on the [Virto node](https://github.com/virto-network/virto-node/) and enables organisations to operate via the [Virto App](https://app.virto.dev/). 
 
-The network utilises the [Brale](https://brale.xyz) and Asset Hub issued dUSD stablecoin as a default payment mechanism. 
+The network utilises the [Brale](https://brale.xyz) and [Kusama Asset Hub](https://guide.kusama.network/docs/learn-assets) issued dUSD stablecoin as a default payment mechanism. 
 
 Kabocha’s launch project is **KIMCHI** - a simple, user-facing prediction market/app based around to Kusama (KSM) and Polkadot (DOT) token prices. The market is settled in dUSD and incorporates KAB rewards.
 
