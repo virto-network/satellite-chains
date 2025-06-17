@@ -1,23 +1,19 @@
 ### **Project Overview**
 
-**Kabocha** is a [satellite parachain](https://github.com/monsieurbulb/satellite-chains/tree/main) on Kusama.
+**Kabocha** is a Kusama's first [satellite chain](https://github.com/monsieurbulb/satellite-chains/tree/main).
 
-It is governed by KAB token holders who leverage the **krievo parachain** for its organisational infrastructure. 
+It is governed by KAB token holders who leverage the **Kreivo parachain** for its organisational infrastructure. 
 
-Krievo uses KSM as its primary currency and charges fees for enabling on-chain organisations to create member based organisations. Read more [here](https://hackmd.io/jTfEz0aaS72qBscVOLAGJg).  
+Kreivo uses KSM as its primary currency and charges fees for enabling on-chain organisations to create member based organisations. Read more [here](https://hackmd.io/jTfEz0aaS72qBscVOLAGJg).  
 
-Krievo is built on the [Virto node](https://github.com/virto-network/virto-node/) and enables organisations to operate via the [Virto App](https://app.virto.dev/). 
-
-Kabocha utilises the [Brale](https://brale.xyz) and [Kusama Asset Hub](https://guide.kusama.network/docs/learn-assets) issued dUSD stablecoin as a default payment mechanism. 
-
-Kabocha’s launch project is [**KIMCHI**](https://github.com/monsieurbulb/satellite-chains/blob/main/kabocha/Apps/KIMCHI/Readme.md) - a simple, user-facing prediction market/app based around to Kusama (KSM) and Polkadot (DOT) token prices. The market is settled in dUSD and incorporates KAB rewards.
+Kabocha utilises the [Brale](https://brale.xyz) and [Kusama Asset Hub](https://guide.kusama.network/docs/learn-assets) issued dUSD stablecoin as its default payment mechanism. 
 
 ---
 
 ### **Technical Specification**
 
 #### kabocha Parachain
-   - **Architecture**: Built as a Kusama satellite chain governed using krievo infrastructure and accessed via the [Virto application](https://app.virto.dev/) with KAB as its native currency.
+   - **Architecture**: Built as a Kusama satellite chain governed using Kreivo infrastructure with KAB as its native currency.
 - **Distribution**: Forked from [Edgeware](https://forum.polkadot.network/t/re-introducing-edgeware-substrates-most-chaotic-governance-experiment-and-second-oldest-mainnet/500) to enable broad, fair and aligned genesis. [W3F](https://web3.foundation/) have large stake representing their contributions but not controlling share.
 - **USP**: Restructures base economic incentives through governance mediated separation of powers to ensure long term network alignment with the aim of advancing, rather than collapsing collective intelligence. 
 
